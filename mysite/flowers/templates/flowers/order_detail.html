@@ -1,0 +1,25 @@
+<!-- flowers/templates/flowers/order_detail.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детали заказа</title>
+</head>
+<body>
+    <h1>Детали заказа #{{ order.id }}</h1>
+
+    <p><strong>Дата заказа:</strong> {{ order.date_ordered }}</p>
+    <p><strong>Статус:</strong> {{ order.status }}</p>
+
+    <h2>Товары в заказе:</h2>
+    <ul>
+        {% for product in products %}
+            <li>{{ product.name }} - {{ product.price }} руб.</li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'catalog' %}">Вернуться в каталог</a>
+</body>
+</html>

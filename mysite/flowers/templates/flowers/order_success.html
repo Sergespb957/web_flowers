@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заказ успешно оформлен</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'flowers/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Ваш заказ успешно оформлен!</h1>
+        <p>Спасибо за ваш заказ. Мы свяжемся с вами для подтверждения деталей.</p>
+        
+        <div class="buttons">
+            <a href="{% url 'catalog' %}" class="btn">Вернуться к покупкам</a>
+            <a href="{% url 'order_detail' order.id %}" class="btn">Просмотреть детали заказа</a> <!-- Ссылка на детали заказа -->
+            <p>Номер вашего заказа: {{ order.id }}</p>
+            <p>Общая сумма: {{ order.total_price }} ₽</p>
+        </div>
+    </div>
+</body>
+</html>

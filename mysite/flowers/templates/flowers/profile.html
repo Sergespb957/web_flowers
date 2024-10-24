@@ -1,0 +1,17 @@
+<!-- flowers/templates/profile.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль пользователя</title>
+  {% load static %}
+    <link rel="stylesheet" href="{% static 'flowers/styles.css' %}">
+</head>
+<body>
+    <h1>Добро пожаловать в ваш профиль, {{ user.username }}!</h1>
+    <p>Здесь вы можете управлять своей учетной записью.</p>
+    <a href="{% url 'catalog' %}">Перейти в каталог</a>
+    <a href="{% url 'logout' %}">Выйти</a>
+</body>
+</html>
