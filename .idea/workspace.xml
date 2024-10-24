@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e9f0353-4a75-4814-9476-4b1019570103" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/web_flowers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/PythonSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/web_flowers/FileContentIndex/18eceae2-b1f6-4620-ba42-dd67a0bf8b57.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/web_flowers/v17/.wsuo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/web_flowers/v17/DocumentLayout.backup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/web_flowers/v17/DocumentLayout.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/static/flowers/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/templates/flowers/catalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/templates/flowers/leave_review.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/templates/flowers/order_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/templates/flowers/order_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/templates/flowers/place_order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/templates/flowers/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/templates/registration/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/flowers/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/wsgi.py" afterDir="false" />
-    </list>
+    <list default="true" id="5e9f0353-4a75-4814-9476-4b1019570103" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,9 +66,20 @@
       <option name="presentableId" value="Default" />
       <updated>1728924847322</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <option name="closed" value="true" />
+      <created>1729800649666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729800649666</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
